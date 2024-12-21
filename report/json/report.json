@@ -1,0 +1,518 @@
+{
+  "config": {
+    "configFile": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/playwright.config.js",
+    "rootDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report/json/report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "outputFile": "report/html",
+          "open": "never"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/elsianadiahfitaloka/Documents/QA Engineer Bootcamp /API Automation/Testing-API-Automation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api-test.spec.js",
+      "file": "api-test.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test Case 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 565,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:17.298Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-765dd2a6ccfd9bbfcd98",
+          "file": "api-test.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "Test Case 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 804,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "POST Response Data: { id: \u001b[32m'14'\u001b[39m, createdAt: \u001b[32m'2024-12-21T14:29:18.124Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:17.310Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-ddb1441c68825aab1fa0",
+          "file": "api-test.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Test Case 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 844,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:17.301Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-45a48293407628c54b72",
+          "file": "api-test.spec.js",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "Test Case 4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 820,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "PUT Response Data: { updatedAt: \u001b[32m'2024-12-21T14:29:18.143Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:17.312Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-7049771ec550fa6f4790",
+          "file": "api-test.spec.js",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "Test Case 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 403,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:18.212Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-efff73cec3c477d92715",
+          "file": "api-test.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "Test Case 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 629,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "POST Response Data: { id: \u001b[32m'176'\u001b[39m, createdAt: \u001b[32m'2024-12-21T14:29:19.177Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:18.519Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-ded2283ca6cf52f245d8",
+          "file": "api-test.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Test Case 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 600,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:18.556Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-0434f5158c42a65e1d8e",
+          "file": "api-test.spec.js",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "Test Case 4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 576,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "PUT Response Data: { updatedAt: \u001b[32m'2024-12-21T14:29:19.182Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:18.572Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-85da89c98f376215282e",
+          "file": "api-test.spec.js",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "Test Case 1",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 473,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:18.945Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-d1b4a66392af5e9bf436",
+          "file": "api-test.spec.js",
+          "line": 7,
+          "column": 1
+        },
+        {
+          "title": "Test Case 2",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 763,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "POST Response Data: { id: \u001b[32m'533'\u001b[39m, createdAt: \u001b[32m'2024-12-21T14:29:20.295Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:19.545Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-0f3e0432799625b2140a",
+          "file": "api-test.spec.js",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "Test Case 3",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:19.543Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-2f5d1e5f7bf164e68595",
+          "file": "api-test.spec.js",
+          "line": 56,
+          "column": 1
+        },
+        {
+          "title": "Test Case 4",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 780,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "PUT Response Data: { updatedAt: \u001b[32m'2024-12-21T14:29:20.326Z'\u001b[39m }\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-21T14:29:19.544Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ea20521d6fcf43dcdb4f-84cc6106683ecae279f5",
+          "file": "api-test.spec.js",
+          "line": 63,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-12-21T14:29:16.812Z",
+    "duration": 3535.543,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
